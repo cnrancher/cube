@@ -4,6 +4,7 @@ set -e
 cd $(dirname $0)/..
 
 ./scripts/build-images
+./scripts/server
 
 echo
 echo "Images ready to push:"
