@@ -1,0 +1,13 @@
+---
+#kubernetes config
+kube_config: /var/lib/rancher/cube/kube_config_rke_config.yml
+
+#Infrastructure images
+infra_images:
+  dashboard: cnrancher/kubernetes-dashboard-amd64:latest
+  longhorn_manager: rancher/longhorn-manager:2f67428
+  longhorn_engine: rancher/longhorn-engine:99441d1
+  longhorn_flexvolume-driver: rancher/longhorn-manager:2f67428
+  longhorn_ui: rancher/longhorn-ui:3138c52
+  ranchervm: rancher/vm
+  ranchervm_frontend: rancher/vm-frontend
